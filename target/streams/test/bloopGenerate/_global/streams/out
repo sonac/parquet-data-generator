@@ -1,4 +1,0 @@
-[debug] [parquet-data-generator-test] Classpath dependencies List()
-[debug] [parquet-data-generator-test] Dependencies from configurations List(parquet-data-generator)
-[debug] Bloop wrote the configuration of project 'parquet-data-generator-test' to '/Users/andriisumko/git/parquet-data-generator/.bloop/parquet-data-generator-test.json'
-[success] Generated .bloop/parquet-data-generator-test.json
