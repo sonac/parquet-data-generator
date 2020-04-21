@@ -1,0 +1,598 @@
+INFO  started: Metals version 0.8.4 in workspace '/Users/andriisumko/git/parquet-data-generator'
+INFO  time: initialize in 0.59s
+WARN  no build target for: /Users/andriisumko/git/parquet-data-generator/src/main/scala/Main.scala
+INFO  no build target: using presentation compiler with only scala-library
+WARN  code navigation does not work for the file '/Users/andriisumko/git/parquet-data-generator/src/main/scala/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/andriisumko/git/parquet-data-generator/src/main/scala/Main.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/andriisumko/git/parquet-data-generator/src/main/scala/Main.scala' because it doesn't belong to a build target.
+Apr 21, 2020 11:01:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+INFO  running '/Library/Java/JavaVirtualMachines/adoptopenjdk-8-openj9.jdk/Contents/Home/jre/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/n4/xn460vms2txdrycmzn6ztj4m0000gn/T/metals2796802560547022859/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+INFO  skipping build import with status 'Started'
+INFO  [info] Loading global plugins from /Users/andriisumko/.sbt/1.0/plugins
+INFO  [info] Loading settings for project parquet-data-generator-build from metals.sbt ...
+INFO  [info] Loading project definition from /Users/andriisumko/git/parquet-data-generator/project
+INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+INFO  [info] Loading settings for project parquet-data-generator from build.sbt ...
+INFO  [info] Set current project to parquet-data-generator (in build file:/Users/andriisumko/git/parquet-data-generator/)
+INFO  [success] Generated .bloop/parquet-data-generator-test.json
+INFO  [success] Generated .bloop/parquet-data-generator.json
+INFO  [success] Total time: 1 s, completed 21-Apr-2020 23:01:28
+INFO  time: ran 'sbt bloopInstall' in 16s
+INFO  build tool exit: 0
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/n4/xn460vms2txdrycmzn6ztj4m0000gn/T/bsp-launcher7355787481260322202/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading 2 projects from '/Users/andriisumko/git/parquet-data-generator/.bloop'...
+[0m[32m[D][0m Loading project from '/Users/andriisumko/git/parquet-data-generator/.bloop/parquet-data-generator.json'
+[0m[32m[D][0m Loading project from '/Users/andriisumko/git/parquet-data-generator/.bloop/parquet-data-generator-test.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.12.11.
+[0m[32m[D][0m   => /Users/andriisumko/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/jline/jline/2.14.6/jline-2.14.6.jar
+[0m[32m[D][0m   => /Users/andriisumko/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.12/jansi-1.12.jar
+[0m[32m[D][0m   => /Users/andriisumko/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.6/scala-xml_2.12-1.0.6.jar
+[0m[32m[D][0m   => /Users/andriisumko/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.11/scala-compiler-2.12.11.jar
+[0m[32m[D][0m   => /Users/andriisumko/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.11/scala-library-2.12.11.jar
+[0m[32m[D][0m   => /Users/andriisumko/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.11/scala-reflect-2.12.11.jar
+[0m[32m[D][0m Missing analysis file for project 'parquet-data-generator-test'
+[0m[32m[D][0m Missing analysis file for project 'parquet-data-generator'
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/n4/xn460vms2txdrycmzn6ztj4m0000gn/T/bsp-launcher7355787481260322202/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/n4/xn460vms2txdrycmzn6ztj4m0000gn/T/bsp-launcher7355787481260322202/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/andriisumko/Library/Caches/org.scalameta.metals/bsp.trace.json
+INFO  time: connected to build server in 0.44s
+INFO  Connected to Build server v1.4.0-RC1-190-ef7d8dba
+INFO  time: indexed workspace in 2.92s
+INFO  compiling parquet-data-generator (1 scala source)
+INFO  time: compiled parquet-data-generator in 4.93s
+INFO  compiling parquet-data-generator (1 scala source)
+WARN  there was one deprecation warning (since 2.11.0); re-run with -deprecation for details
+INFO  time: compiled parquet-data-generator in 7.27s
+Apr 21, 2020 11:05:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 193
+Apr 21, 2020 11:05:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 188
+Apr 21, 2020 11:05:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 203
+Apr 21, 2020 11:05:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 211
+Apr 21, 2020 11:05:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 208
+Apr 21, 2020 11:05:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 213
+Apr 21, 2020 11:05:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 216
+Apr 21, 2020 11:05:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 215
+Apr 21, 2020 11:05:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 224
+Apr 21, 2020 11:05:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 223
+Apr 21, 2020 11:05:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 226
+Apr 21, 2020 11:05:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 222
+INFO  compiling parquet-data-generator (1 scala source)
+INFO  time: compiled parquet-data-generator in 1.03s
+Apr 21, 2020 11:05:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 365
+INFO  compiling parquet-data-generator (1 scala source)
+INFO  time: compiled parquet-data-generator in 1.31s
+INFO  compiling parquet-data-generator (1 scala source)
+INFO  time: compiled parquet-data-generator in 0.64s
+INFO  compiling parquet-data-generator (1 scala source)
+WARN  there was one deprecation warning (since 2.11.0); re-run with -deprecation for details
+INFO  time: compiled parquet-data-generator in 3.25s
+INFO  compiling parquet-data-generator (1 scala source)
+WARN  there was one deprecation warning (since 2.11.0); re-run with -deprecation for details
+INFO  time: compiled parquet-data-generator in 5.17s
+INFO  compiling parquet-data-generator (1 scala source)
+WARN  there was one deprecation warning (since 2.11.0); re-run with -deprecation for details
+INFO  time: compiled parquet-data-generator in 3.04s
+INFO  running '/Library/Java/JavaVirtualMachines/adoptopenjdk-8-openj9.jdk/Contents/Home/jre/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/n4/xn460vms2txdrycmzn6ztj4m0000gn/T/metals654671325782151254/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+INFO  [info] Loading global plugins from /Users/andriisumko/.sbt/1.0/plugins
+INFO  [info] Loading settings for project parquet-data-generator-build from metals.sbt ...
+INFO  [info] Loading project definition from /Users/andriisumko/git/parquet-data-generator/project
+INFO  [info] Loading settings for project parquet-data-generator from build.sbt ...
+INFO  [info] Set current project to parquet-data-generator (in build file:/Users/andriisumko/git/parquet-data-generator/)
+INFO  [success] Generated .bloop/parquet-data-generator.json
+INFO  [success] Generated .bloop/parquet-data-generator-test.json
+INFO  [success] Total time: 4 s, completed 21-Apr-2020 23:08:49
+INFO  build tool exit: 0
+INFO  time: ran 'sbt bloopInstall' in 13s
+INFO  disconnected: build server
+No more data in the client stdin, exiting...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/n4/xn460vms2txdrycmzn6ztj4m0000gn/T/bsp-launcher2389301038760222943/bsp.socket'...
+Waiting for the bsp connection to come up...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from '/Users/andriisumko/git/parquet-data-generator/.bloop'...
+[0m[32m[D][0m Loading project from '/Users/andriisumko/git/parquet-data-generator/.bloop/parquet-data-generator.json'
+[0m[32m[D][0m Loading project from '/Users/andriisumko/git/parquet-data-generator/.bloop/parquet-data-generator-test.json'
+[0m[32m[D][0m Configured SemanticDB in projects 'parquet-data-generator', 'parquet-data-generator-test'
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/n4/xn460vms2txdrycmzn6ztj4m0000gn/T/bsp-launcher2389301038760222943/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/n4/xn460vms2txdrycmzn6ztj4m0000gn/T/bsp-launcher2389301038760222943/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/andriisumko/Library/Caches/org.scalameta.metals/bsp.trace.json
+INFO  Connected to Build server v1.4.0-RC1-190-ef7d8dba
+INFO  time: indexed workspace in 0.41s
+INFO  compiling parquet-data-generator (1 scala source)
+WARN  there was one deprecation warning (since 2.11.0); re-run with -deprecation for details
+INFO  time: compiled parquet-data-generator in 2.27s
+INFO  compiling parquet-data-generator (1 scala source)
+WARN  there was one deprecation warning (since 2.11.0); re-run with -deprecation for details
+INFO  time: compiled parquet-data-generator in 4.36s
+Apr 21, 2020 11:11:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 898
+INFO  compiling parquet-data-generator (1 scala source)
+WARN  there was one deprecation warning (since 2.11.0); re-run with -deprecation for details
+INFO  time: compiled parquet-data-generator in 4.7s
+INFO  compiling parquet-data-generator (1 scala source)
+WARN  there was one deprecation warning (since 2.11.0); re-run with -deprecation for details
+INFO  time: compiled parquet-data-generator in 3.23s
+INFO  running '/Library/Java/JavaVirtualMachines/adoptopenjdk-8-openj9.jdk/Contents/Home/jre/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/n4/xn460vms2txdrycmzn6ztj4m0000gn/T/metals7096372633596757540/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+INFO  [info] Loading global plugins from /Users/andriisumko/.sbt/1.0/plugins
+INFO  [info] Loading settings for project parquet-data-generator-build from metals.sbt ...
+INFO  [info] Loading project definition from /Users/andriisumko/git/parquet-data-generator/project
+INFO  [info] Loading settings for project parquet-data-generator from build.sbt ...
+INFO  [info] Set current project to parquet-data-generator (in build file:/Users/andriisumko/git/parquet-data-generator/)
+INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+INFO  [success] Generated .bloop/parquet-data-generator.json
+INFO  [success] Generated .bloop/parquet-data-generator-test.json
+INFO  [success] Total time: 31 s, completed 21-Apr-2020 23:14:39
+INFO  build tool exit: 0
+INFO  time: ran 'sbt bloopInstall' in 1m1s
+INFO  disconnected: build server
+No more data in the client stdin, exiting...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/n4/xn460vms2txdrycmzn6ztj4m0000gn/T/bsp-launcher2757546328818262989/bsp.socket'...
+Waiting for the bsp connection to come up...
+INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/andriisumko/Library/Caches/org.scalameta.metals/bsp.trace.json
+INFO  Connected to Build server v1.4.0-RC1-190-ef7d8dba
+INFO  time: indexed workspace in 1.56s
+INFO  compiling parquet-data-generator (1 scala source)
+WARN  there was one deprecation warning (since 2.11.0); re-run with -deprecation for details
+INFO  time: compiled parquet-data-generator in 3.79s
+INFO  running '/Library/Java/JavaVirtualMachines/adoptopenjdk-8-openj9.jdk/Contents/Home/jre/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/n4/xn460vms2txdrycmzn6ztj4m0000gn/T/metals1093406479862966654/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+INFO  [info] Loading global plugins from /Users/andriisumko/.sbt/1.0/plugins
+INFO  [info] Loading settings for project parquet-data-generator-build from metals.sbt ...
+INFO  [info] Loading project definition from /Users/andriisumko/git/parquet-data-generator/project
+INFO  [info] Loading settings for project parquet-data-generator from build.sbt ...
+INFO  [info] Set current project to parquet-data-generator (in build file:/Users/andriisumko/git/parquet-data-generator/)
+INFO  [warn] 
+INFO  [warn] 	Note: Unresolved dependencies path:
+INFO  [error] sbt.librarymanagement.ResolveException: Error downloading org.apache.hadoop:hadoop-hdfs-client:
+INFO  [error]   Not found
+INFO  [error]   Not found
+INFO  [error]   not found: /Users/andriisumko/.ivy2/local/org.apache.hadoop/hadoop-hdfs-client/ivys/ivy.xml
+INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-hdfs-client//hadoop-hdfs-client-.pom
+INFO  [error]   not found: https://oss.sonatype.org/content/repositories/snapshots/org/apache/hadoop/hadoop-hdfs-client//hadoop-hdfs-client-.pom
+INFO  [error] Error downloading org.apache.hadoop:hadoop-mapreduce-client-jobclient:
+INFO  [error]   Not found
+INFO  [error]   Not found
+INFO  [error]   not found: /Users/andriisumko/.ivy2/local/org.apache.hadoop/hadoop-mapreduce-client-jobclient/ivys/ivy.xml
+INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-jobclient//hadoop-mapreduce-client-jobclient-.pom
+INFO  [error]   not found: https://oss.sonatype.org/content/repositories/snapshots/org/apache/hadoop/hadoop-mapreduce-client-jobclient//hadoop-mapreduce-client-jobclient-.pom
+INFO  [error] Error downloading org.apache.hadoop:hadoop-mapreduce-client-app:
+INFO  [error]   Not found
+INFO  [error]   Not found
+INFO  [error]   not found: /Users/andriisumko/.ivy2/local/org.apache.hadoop/hadoop-mapreduce-client-app/ivys/ivy.xml
+INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-app//hadoop-mapreduce-client-app-.pom
+INFO  [error]   not found: https://oss.sonatype.org/content/repositories/snapshots/org/apache/hadoop/hadoop-mapreduce-client-app//hadoop-mapreduce-client-app-.pom
+INFO  [error] Error downloading org.apache.hadoop:hadoop-common:
+INFO  [error]   Not found
+INFO  [error]   Not found
+INFO  [error]   not found: /Users/andriisumko/.ivy2/local/org.apache.hadoop/hadoop-common/ivys/ivy.xml
+INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-common//hadoop-common-.pom
+INFO  [error]   not found: https://oss.sonatype.org/content/repositories/snapshots/org/apache/hadoop/hadoop-common//hadoop-common-.pom
+INFO  [error] Error downloading org.apache.hadoop:hadoop-yarn-api:
+INFO  [error]   Not found
+INFO  [error]   Not found
+INFO  [error]   not found: /Users/andriisumko/.ivy2/local/org.apache.hadoop/hadoop-yarn-api/ivys/ivy.xml
+INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-api//hadoop-yarn-api-.pom
+INFO  [error]   not found: https://oss.sonatype.org/content/repositories/snapshots/org/apache/hadoop/hadoop-yarn-api//hadoop-yarn-api-.pom
+INFO  [error] Error downloading org.apache.hadoop:hadoop-project:2.9.1
+INFO  [error]   Not found
+INFO  [error]   Not found
+INFO  [error]   not found: /Users/andriisumko/.ivy2/local/org.apache.hadoop/hadoop-project/2.9.1/ivys/ivy.xml
+INFO  [error]   download error: Caught java.nio.file.NoSuchFileException: /Users/andriisumko/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/hadoop/hadoop-project/2.9.1/.hadoop-project-2.9.1.pom.part -> /Users/andriisumko/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/hadoop/hadoop-project/2.9.1/hadoop-project-2.9.1.pom (/Users/andriisumko/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/hadoop/hadoop-project/2.9.1/.hadoop-project-2.9.1.pom.part -> /Users/andriisumko/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/hadoop/hadoop-project/2.9.1/hadoop-project-2.9.1.pom) while downloading https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-project/2.9.1/hadoop-project-2.9.1.pom
+INFO  [error]   not found: https://oss.sonatype.org/content/repositories/snapshots/org/apache/hadoop/hadoop-project/2.9.1/hadoop-project-2.9.1.pom
+INFO  [error] Error downloading org.apache.hadoop:hadoop-mapreduce-client-core:
+INFO  [error]   Not found
+INFO  [error]   Not found
+INFO  [error]   not found: /Users/andriisumko/.ivy2/local/org.apache.hadoop/hadoop-mapreduce-client-core/ivys/ivy.xml
+INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-core//hadoop-mapreduce-client-core-.pom
+INFO  [error]   not found: https://oss.sonatype.org/content/repositories/snapshots/org/apache/hadoop/hadoop-mapreduce-client-core//hadoop-mapreduce-client-core-.pom
+INFO  [error] Error downloading org.apache.hadoop:hadoop-annotations:
+INFO  [error]   Not found
+INFO  [error]   Not found
+INFO  [error]   not found: /Users/andriisumko/.ivy2/local/org.apache.hadoop/hadoop-annotations/ivys/ivy.xml
+INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-annotations//hadoop-annotations-.pom
+INFO  [error]   not found: https://oss.sonatype.org/content/repositories/snapshots/org/apache/hadoop/hadoop-annotations//hadoop-annotations-.pom
+INFO  [error] 	at lmcoursier.CoursierDependencyResolution.unresolvedWarningOrThrow(CoursierDependencyResolution.scala:247)
+INFO  [error] 	at lmcoursier.CoursierDependencyResolution.$anonfun$update$35(CoursierDependencyResolution.scala:216)
+INFO  [error] 	at lmcoursier.CoursierDependencyResolution$$Lambda$4492.00000000C38BFA20.apply(Unknown Source)
+INFO  [error] 	at scala.util.Either$LeftProjection.map(Either.scala:573)
+INFO  [error] 	at lmcoursier.CoursierDependencyResolution.update(CoursierDependencyResolution.scala:216)
+INFO  [error] 	at sbt.librarymanagement.DependencyResolution.update(DependencyResolution.scala:60)
+INFO  [error] 	at sbt.internal.LibraryManagement$.resolve$1(LibraryManagement.scala:52)
+INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$12(LibraryManagement.scala:102)
+INFO  [error] 	at sbt.internal.LibraryManagement$$$Lambda$3262.0000000000000000.apply(Unknown Source)
+INFO  [error] 	at sbt.util.Tracked$.$anonfun$lastOutput$1(Tracked.scala:69)
+INFO  [error] 	at sbt.util.Tracked$$$Lambda$3121.0000000000000000.apply(Unknown Source)
+INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$20(LibraryManagement.scala:115)
+INFO  [error] 	at sbt.internal.LibraryManagement$$$Lambda$3264.0000000000000000.apply(Unknown Source)
+INFO  [error] 	at scala.util.control.Exception$Catch.apply(Exception.scala:228)
+INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11(LibraryManagement.scala:115)
+INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11$adapted(LibraryManagement.scala:96)
+INFO  [error] 	at sbt.internal.LibraryManagement$$$Lambda$3261.0000000000000000.apply(Unknown Source)
+INFO  [error] 	at sbt.util.Tracked$.$anonfun$inputChanged$1(Tracked.scala:150)
+INFO  [error] 	at sbt.util.Tracked$$$Lambda$3054.0000000000000000.apply(Unknown Source)
+INFO  [error] 	at sbt.internal.LibraryManagement$.cachedUpdate(LibraryManagement.scala:129)
+INFO  [error] 	at sbt.Classpaths$.$anonfun$updateTask0$5(Defaults.scala:2950)
+INFO  [error] 	at sbt.Classpaths$$$Lambda$1926.0000000000000000.apply(Unknown Source)
+INFO  [error] 	at scala.Function1.$anonfun$compose$1(Function1.scala:49)
+INFO  [error] 	at scala.Function1$$Lambda$1019.0000000000000000.apply(Unknown Source)
+INFO  [error] 	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:62)
+INFO  [error] 	at sbt.internal.util.$tilde$greater$$Lambda$2909.0000000000000000.apply(Unknown Source)
+INFO  [error] 	at sbt.std.Transform$$anon$4.work(Transform.scala:67)
+INFO  [error] 	at sbt.Execute.$anonfun$submit$2(Execute.scala:281)
+INFO  [error] 	at sbt.Execute$$Lambda$1888.0000000000000000.apply(Unknown Source)
+INFO  [error] 	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:19)
+INFO  [error] 	at sbt.Execute.work(Execute.scala:290)
+INFO  [error] 	at sbt.Execute.$anonfun$submit$1(Execute.scala:281)
+INFO  [error] 	at sbt.Execute$$Lambda$2918.0000000000000000.apply(Unknown Source)
+INFO  [error] 	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:178)
+INFO  [error] 	at sbt.ConcurrentRestrictions$$anon$4$$Lambda$2925.0000000000000000.apply(Unknown Source)
+INFO  [error] 	at sbt.CompletionService$$anon$2.call(CompletionService.scala:37)
+INFO  [error] 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+INFO  [error] 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+INFO  [error] 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+INFO  [error] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+INFO  [error] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+INFO  [error] 	at java.lang.Thread.run(Thread.java:819)
+INFO  [error] (update) sbt.librarymanagement.ResolveException: Error downloading org.apache.hadoop:hadoop-hdfs-client:
+INFO  [error]   Not found
+INFO  [error]   Not found
+INFO  [error]   not found: /Users/andriisumko/.ivy2/local/org.apache.hadoop/hadoop-hdfs-client/ivys/ivy.xml
+INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-hdfs-client//hadoop-hdfs-client-.pom
+INFO  [error]   not found: https://oss.sonatype.org/content/repositories/snapshots/org/apache/hadoop/hadoop-hdfs-client//hadoop-hdfs-client-.pom
+INFO  [error] Error downloading org.apache.hadoop:hadoop-mapreduce-client-jobclient:
+INFO  [error]   Not found
+INFO  [error]   Not found
+INFO  [error]   not found: /Users/andriisumko/.ivy2/local/org.apache.hadoop/hadoop-mapreduce-client-jobclient/ivys/ivy.xml
+INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-jobclient//hadoop-mapreduce-client-jobclient-.pom
+INFO  [error]   not found: https://oss.sonatype.org/content/repositories/snapshots/org/apache/hadoop/hadoop-mapreduce-client-jobclient//hadoop-mapreduce-client-jobclient-.pom
+INFO  [error] Error downloading org.apache.hadoop:hadoop-mapreduce-client-app:
+INFO  [error]   Not found
+INFO  [error]   Not found
+INFO  [error]   not found: /Users/andriisumko/.ivy2/local/org.apache.hadoop/hadoop-mapreduce-client-app/ivys/ivy.xml
+INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-app//hadoop-mapreduce-client-app-.pom
+INFO  [error]   not found: https://oss.sonatype.org/content/repositories/snapshots/org/apache/hadoop/hadoop-mapreduce-client-app//hadoop-mapreduce-client-app-.pom
+INFO  [error] Error downloading org.apache.hadoop:hadoop-common:
+INFO  [error]   Not found
+INFO  [error]   Not found
+INFO  [error]   not found: /Users/andriisumko/.ivy2/local/org.apache.hadoop/hadoop-common/ivys/ivy.xml
+INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-common//hadoop-common-.pom
+INFO  [error]   not found: https://oss.sonatype.org/content/repositories/snapshots/org/apache/hadoop/hadoop-common//hadoop-common-.pom
+INFO  [error] Error downloading org.apache.hadoop:hadoop-yarn-api:
+INFO  [error]   Not found
+INFO  [error]   Not found
+INFO  [error]   not found: /Users/andriisumko/.ivy2/local/org.apache.hadoop/hadoop-yarn-api/ivys/ivy.xml
+INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-api//hadoop-yarn-api-.pom
+INFO  [error]   not found: https://oss.sonatype.org/content/repositories/snapshots/org/apache/hadoop/hadoop-yarn-api//hadoop-yarn-api-.pom
+INFO  [error] Error downloading org.apache.hadoop:hadoop-project:2.9.1
+INFO  [error]   Not found
+INFO  [error]   Not found
+INFO  [error]   not found: /Users/andriisumko/.ivy2/local/org.apache.hadoop/hadoop-project/2.9.1/ivys/ivy.xml
+INFO  [error]   download error: Caught java.nio.file.NoSuchFileException: /Users/andriisumko/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/hadoop/hadoop-project/2.9.1/.hadoop-project-2.9.1.pom.part -> /Users/andriisumko/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/hadoop/hadoop-project/2.9.1/hadoop-project-2.9.1.pom (/Users/andriisumko/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/hadoop/hadoop-project/2.9.1/.hadoop-project-2.9.1.pom.part -> /Users/andriisumko/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/hadoop/hadoop-project/2.9.1/hadoop-project-2.9.1.pom) while downloading https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-project/2.9.1/hadoop-project-2.9.1.pom
+INFO  [error]   not found: https://oss.sonatype.org/content/repositories/snapshots/org/apache/hadoop/hadoop-project/2.9.1/hadoop-project-2.9.1.pom
+INFO  [error] Error downloading org.apache.hadoop:hadoop-mapreduce-client-core:
+INFO  [error]   Not found
+INFO  [error]   Not found
+INFO  [error]   not found: /Users/andriisumko/.ivy2/local/org.apache.hadoop/hadoop-mapreduce-client-core/ivys/ivy.xml
+INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-core//hadoop-mapreduce-client-core-.pom
+INFO  [error]   not found: https://oss.sonatype.org/content/repositories/snapshots/org/apache/hadoop/hadoop-mapreduce-client-core//hadoop-mapreduce-client-core-.pom
+INFO  [error] Error downloading org.apache.hadoop:hadoop-annotations:
+INFO  [error]   Not found
+INFO  [error]   Not found
+INFO  [error]   not found: /Users/andriisumko/.ivy2/local/org.apache.hadoop/hadoop-annotations/ivys/ivy.xml
+INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-annotations//hadoop-annotations-.pom
+INFO  [error]   not found: https://oss.sonatype.org/content/repositories/snapshots/org/apache/hadoop/hadoop-annotations//hadoop-annotations-.pom
+INFO  [error] Total time: 8 s, completed 21-Apr-2020 23:18:43
+INFO  build tool exit: 1
+INFO  time: ran 'sbt bloopInstall' in 36s
+INFO  disconnected: build server
+ERROR sbt command failed: /Library/Java/JavaVirtualMachines/adoptopenjdk-8-openj9.jdk/Contents/Home/jre/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/n4/xn460vms2txdrycmzn6ztj4m0000gn/T/metals1093406479862966654/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall
+INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/andriisumko/Library/Caches/org.scalameta.metals/bsp.trace.json
+INFO  Connected to Build server v1.4.0-RC1-190-ef7d8dba
+INFO  time: imported build in 0.15s
+INFO  time: indexed workspace in 2.29s
+INFO  compiling parquet-data-generator (1 scala source)
+WARN  there was one deprecation warning (since 2.11.0); re-run with -deprecation for details
+INFO  time: compiled parquet-data-generator in 3.18s
+INFO  shutting down Metals
+INFO  started: Metals version 0.8.4 in workspace '/Users/andriisumko/git/parquet-data-generator'
+INFO  time: initialize in 0.4s
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/n4/xn460vms2txdrycmzn6ztj4m0000gn/T/bsp-launcher7320789727331056588/bsp.socket'...
+Waiting for the bsp connection to come up...
+INFO  skipping build import with status 'Failed'
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/n4/xn460vms2txdrycmzn6ztj4m0000gn/T/bsp-launcher7320789727331056588/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/n4/xn460vms2txdrycmzn6ztj4m0000gn/T/bsp-launcher7320789727331056588/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/andriisumko/Library/Caches/org.scalameta.metals/bsp.trace.json
+INFO  time: connected to build server in 0.41s
+INFO  Connected to Build server v1.4.0-RC1-190-ef7d8dba
+INFO  time: indexed workspace in 2.49s
+Apr 21, 2020 11:21:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+INFO  shutting down Metals
+No more data in the client stdin, exiting...
+Apr 21, 2020 11:35:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify
+INFO: Failed to send notification message.
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.nio.channels.ClosedChannelException
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:126)
+	at org.eclipse.lsp4j.jsonrpc.services.EndpointProxy.invoke(EndpointProxy.java:88)
+	at com.sun.proxy.$Proxy9.onBuildExit(Unknown Source)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:54)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:51)
+	at scala.meta.internal.metals.BuildServerConnection$$Lambda$3289.0000000009825E20.apply(Unknown Source)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.Future$$Lambda$3121.0000000000000000.apply(Unknown Source)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise$$Lambda$5207.0000000000000000.apply(Unknown Source)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:819)
+Caused by: java.nio.channels.ClosedChannelException
+	at sun.nio.ch.SinkChannelImpl.ensureOpen(SinkChannelImpl.java:154)
+	at sun.nio.ch.SinkChannelImpl.write(SinkChannelImpl.java:158)
+	at java.nio.channels.Channels.writeFullyImpl(Channels.java:78)
+	at java.nio.channels.Channels.writeFully(Channels.java:98)
+	at java.nio.channels.Channels.access$000(Channels.java:61)
+	at java.nio.channels.Channels$1.write(Channels.java:174)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at java.nio.channels.Channels$1.write(Channels.java:155)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:25)
+	at java.io.FilterOutputStream.write(FilterOutputStream.java:125)
+	at java.io.FilterOutputStream.write(FilterOutputStream.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	... 17 more
+
+INFO  started: Metals version 0.8.4 in workspace '/Users/andriisumko/git/parquet-data-generator'
+INFO  time: initialize in 0.4s
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/n4/xn460vms2txdrycmzn6ztj4m0000gn/T/bsp-launcher881624909465804838/bsp.socket'...
+Waiting for the bsp connection to come up...
+INFO  skipping build import with status 'Failed'
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/n4/xn460vms2txdrycmzn6ztj4m0000gn/T/bsp-launcher881624909465804838/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/n4/xn460vms2txdrycmzn6ztj4m0000gn/T/bsp-launcher881624909465804838/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/andriisumko/Library/Caches/org.scalameta.metals/bsp.trace.json
+INFO  time: connected to build server in 0.58s
+INFO  Connected to Build server v1.4.0-RC1-190-ef7d8dba
+INFO  time: imported build in 0.1s
+INFO  time: indexed workspace in 2.63s
+INFO  shutting down Metals
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+INFO  started: Metals version 0.8.4 in workspace '/Users/andriisumko/git/parquet-data-generator'
+INFO  time: initialize in 0.45s
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/n4/xn460vms2txdrycmzn6ztj4m0000gn/T/bsp-launcher4768502124855323897/bsp.socket'...
+Waiting for the bsp connection to come up...
+INFO  skipping build import with status 'Failed'
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/n4/xn460vms2txdrycmzn6ztj4m0000gn/T/bsp-launcher4768502124855323897/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/n4/xn460vms2txdrycmzn6ztj4m0000gn/T/bsp-launcher4768502124855323897/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/andriisumko/Library/Caches/org.scalameta.metals/bsp.trace.json
+INFO  time: connected to build server in 0.41s
+INFO  Connected to Build server v1.4.0-RC1-190-ef7d8dba
+INFO  time: indexed workspace in 2.41s
+INFO  compiling parquet-data-generator (1 scala source)
+WARN  there was one deprecation warning (since 2.11.0); re-run with -deprecation for details
+INFO  time: compiled parquet-data-generator in 3.13s
+INFO  running '/Library/Java/JavaVirtualMachines/adoptopenjdk-8-openj9.jdk/Contents/Home/jre/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/n4/xn460vms2txdrycmzn6ztj4m0000gn/T/metals2098903346778399475/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+INFO  [info] Loading global plugins from /Users/andriisumko/.sbt/1.0/plugins
+INFO  [info] Loading settings for project parquet-data-generator-build from metals.sbt ...
+INFO  [info] Loading project definition from /Users/andriisumko/git/parquet-data-generator/project
+INFO  [info] Loading settings for project parquet-data-generator from build.sbt ...
+INFO  [info] Set current project to parquet-data-generator (in build file:/Users/andriisumko/git/parquet-data-generator/)
+INFO  [success] Generated .bloop/parquet-data-generator-test.json
+INFO  [success] Generated .bloop/parquet-data-generator.json
+INFO  [success] Total time: 8 s, completed 21-Apr-2020 23:51:56
+INFO  build tool exit: 0
+INFO  time: ran 'sbt bloopInstall' in 20s
+INFO  disconnected: build server
+No more data in the client stdin, exiting...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/n4/xn460vms2txdrycmzn6ztj4m0000gn/T/bsp-launcher5796097061562613674/bsp.socket'...
+Waiting for the bsp connection to come up...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from '/Users/andriisumko/git/parquet-data-generator/.bloop'...
+[0m[32m[D][0m Loading project from '/Users/andriisumko/git/parquet-data-generator/.bloop/parquet-data-generator.json'
+[0m[32m[D][0m Loading project from '/Users/andriisumko/git/parquet-data-generator/.bloop/parquet-data-generator-test.json'
+[0m[32m[D][0m Configured SemanticDB in projects 'parquet-data-generator-test', 'parquet-data-generator'
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/n4/xn460vms2txdrycmzn6ztj4m0000gn/T/bsp-launcher5796097061562613674/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/n4/xn460vms2txdrycmzn6ztj4m0000gn/T/bsp-launcher5796097061562613674/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/andriisumko/Library/Caches/org.scalameta.metals/bsp.trace.json
+INFO  Connected to Build server v1.4.0-RC1-190-ef7d8dba
+INFO  time: indexed workspace in 0.27s
+INFO  compiling parquet-data-generator (1 scala source)
+INFO  time: compiled parquet-data-generator in 0.4s
+INFO  running '/Library/Java/JavaVirtualMachines/adoptopenjdk-8-openj9.jdk/Contents/Home/jre/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/n4/xn460vms2txdrycmzn6ztj4m0000gn/T/metals3387216811356372709/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+INFO  [info] Loading global plugins from /Users/andriisumko/.sbt/1.0/plugins
+INFO  [info] Loading settings for project parquet-data-generator-build from metals.sbt ...
+INFO  [info] Loading project definition from /Users/andriisumko/git/parquet-data-generator/project
+INFO  [info] Loading settings for project parquet-data-generator from build.sbt ...
+INFO  [info] Set current project to parquet-data-generator (in build file:/Users/andriisumko/git/parquet-data-generator/)
+INFO  [success] Generated .bloop/parquet-data-generator.json
+INFO  [success] Generated .bloop/parquet-data-generator-test.json
+INFO  [success] Total time: 33 s, completed 21-Apr-2020 23:53:56
+INFO  build tool exit: 0
+INFO  time: ran 'sbt bloopInstall' in 44s
+INFO  disconnected: build server
+No more data in the client stdin, exiting...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/n4/xn460vms2txdrycmzn6ztj4m0000gn/T/bsp-launcher423669272355348260/bsp.socket'...
+Waiting for the bsp connection to come up...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from '/Users/andriisumko/git/parquet-data-generator/.bloop'...
+[0m[32m[D][0m Loading project from '/Users/andriisumko/git/parquet-data-generator/.bloop/parquet-data-generator.json'
+[0m[32m[D][0m Loading project from '/Users/andriisumko/git/parquet-data-generator/.bloop/parquet-data-generator-test.json'
+[0m[32m[D][0m Configured SemanticDB in projects 'parquet-data-generator-test', 'parquet-data-generator'
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/n4/xn460vms2txdrycmzn6ztj4m0000gn/T/bsp-launcher423669272355348260/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/n4/xn460vms2txdrycmzn6ztj4m0000gn/T/bsp-launcher423669272355348260/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/andriisumko/Library/Caches/org.scalameta.metals/bsp.trace.json
+INFO  Connected to Build server v1.4.0-RC1-190-ef7d8dba
+INFO  time: imported build in 0.12s
+ERROR code navigation does not work for the file '/Users/andriisumko/git/parquet-data-generator/src/main/scala/Main.scala' because the SemanticDB file '/Users/andriisumko/git/parquet-data-generator/.bloop/parquet-data-generator/bloop-bsp-clients-classes/classes-Metals-gdWmAgwDTPCqIvCRH_D8ig==/META-INF/semanticdb/src/main/scala/Main.scala.semanticdb' doesn't exist. There can be many reasons for this error. 
+ERROR code navigation does not work for the file '/Users/andriisumko/git/parquet-data-generator/src/main/scala/Main.scala' because the SemanticDB file '/Users/andriisumko/git/parquet-data-generator/.bloop/parquet-data-generator/bloop-bsp-clients-classes/classes-Metals-gdWmAgwDTPCqIvCRH_D8ig==/META-INF/semanticdb/src/main/scala/Main.scala.semanticdb' doesn't exist. There can be many reasons for this error. 
+Apr 21, 2020 11:53:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 152
+INFO  time: indexed workspace in 4.16s
+INFO  compiling parquet-data-generator (1 scala source)
+INFO  time: compiled parquet-data-generator in 0.49s
+INFO  compiling parquet-data-generator (1 scala source)
+WARN  there was one deprecation warning (since 2.11.0); re-run with -deprecation for details
+INFO  time: compiled parquet-data-generator in 1.89s
+Apr 21, 2020 11:55:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 229
+Apr 21, 2020 11:55:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 233
+Apr 21, 2020 11:55:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 232
+Apr 21, 2020 11:55:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 235
+Apr 21, 2020 11:55:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 231
+Apr 21, 2020 11:55:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 234
+Apr 21, 2020 11:55:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 260
+Apr 21, 2020 11:55:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 273
+Apr 21, 2020 11:55:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 275
+Apr 21, 2020 11:56:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 321
+Apr 21, 2020 11:56:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 339
+Apr 21, 2020 11:56:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 341
+Apr 21, 2020 11:56:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 332
+INFO  compiling parquet-data-generator (1 scala source)
+INFO  time: compiled parquet-data-generator in 0.76s
+INFO  compiling parquet-data-generator (1 scala source)
+INFO  time: compiled parquet-data-generator in 0.62s
+INFO  compiling parquet-data-generator (1 scala source)
+INFO  time: compiled parquet-data-generator in 0.63s
+INFO  compiling parquet-data-generator (1 scala source)
+INFO  time: compiled parquet-data-generator in 0.83s
+INFO  skipping build import with status 'Installed'
+INFO  running '/Library/Java/JavaVirtualMachines/adoptopenjdk-8-openj9.jdk/Contents/Home/jre/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/n4/xn460vms2txdrycmzn6ztj4m0000gn/T/metals1440289950137984714/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+INFO  [info] Loading global plugins from /Users/andriisumko/.sbt/1.0/plugins
+INFO  [info] Loading settings for project parquet-data-generator-build from plugins.sbt,metals.sbt ...
+INFO  [info] Loading project definition from /Users/andriisumko/git/parquet-data-generator/project
+INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+ERROR /Users/andriisumko/git/parquet-data-generator/build.sbt:13: error: value $ is not a member of sbt.librarymanagement.ModuleID
+ERROR   "org.scala-lang" % "scala-reflect" % "2.12.11" $ "provided"
+ERROR                                                  ^
+INFO  [error] Type error in expression
+INFO  Project loading failed: (r)etry, (q)uit, (l)ast, or (i)gnore? 
+INFO  time: ran 'sbt bloopInstall' in 38s
+ERROR sbt command failed: /Library/Java/JavaVirtualMachines/adoptopenjdk-8-openj9.jdk/Contents/Home/jre/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/n4/xn460vms2txdrycmzn6ztj4m0000gn/T/metals1440289950137984714/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall
+INFO  build tool exit: 1
+INFO  disconnected: build server
+No more data in the client stdin, exiting...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/n4/xn460vms2txdrycmzn6ztj4m0000gn/T/bsp-launcher3149117824797669556/bsp.socket'...
+Waiting for the bsp connection to come up...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/n4/xn460vms2txdrycmzn6ztj4m0000gn/T/bsp-launcher3149117824797669556/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/n4/xn460vms2txdrycmzn6ztj4m0000gn/T/bsp-launcher3149117824797669556/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/andriisumko/Library/Caches/org.scalameta.metals/bsp.trace.json
+INFO  Connected to Build server v1.4.0-RC1-190-ef7d8dba
+INFO  time: indexed workspace in 1.58s
+INFO  compiling parquet-data-generator (1 scala source)
+INFO  time: compiled parquet-data-generator in 0.58s
+INFO  skipping build import with status 'Dismissed'
+INFO  compiling parquet-data-generator (1 scala source)
+INFO  time: compiled parquet-data-generator in 0.86s
+INFO  compiling parquet-data-generator (1 scala source)
+INFO  time: compiled parquet-data-generator in 0.64s
+INFO  compiling parquet-data-generator (1 scala source)
+WARN  there was one deprecation warning (since 2.11.0); re-run with -deprecation for details
+INFO  time: compiled parquet-data-generator in 2.02s
+INFO  compiling parquet-data-generator (1 scala source)
+INFO  time: compiled parquet-data-generator in 0.86s
+INFO  compiling parquet-data-generator (1 scala source)
+WARN  there was one deprecation warning (since 2.11.0); re-run with -deprecation for details
+INFO  time: compiled parquet-data-generator in 2.47s
+INFO  compiling parquet-data-generator (1 scala source)
+INFO  time: compiled parquet-data-generator in 2.19s
+INFO  running '/Library/Java/JavaVirtualMachines/adoptopenjdk-8-openj9.jdk/Contents/Home/jre/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/n4/xn460vms2txdrycmzn6ztj4m0000gn/T/metals168675797890144474/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+INFO  [info] Loading global plugins from /Users/andriisumko/.sbt/1.0/plugins
+INFO  [info] Loading settings for project parquet-data-generator-build from plugins.sbt,metals.sbt ...
+INFO  [info] Loading project definition from /Users/andriisumko/git/parquet-data-generator/project
+INFO  [info] Loading settings for project parquet-data-generator from build.sbt ...
+INFO  [info] Set current project to parquet-data-generator (in build file:/Users/andriisumko/git/parquet-data-generator/)
+INFO  [success] Generated .bloop/parquet-data-generator-test.json
+INFO  [success] Generated .bloop/parquet-data-generator.json
+INFO  [success] Total time: 5 s, completed 22-Apr-2020 00:12:12
+INFO  build tool exit: 0
+INFO  time: ran 'sbt bloopInstall' in 20s
+INFO  disconnected: build server
+No more data in the client stdin, exiting...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/n4/xn460vms2txdrycmzn6ztj4m0000gn/T/bsp-launcher4316787563520432939/bsp.socket'...
+Waiting for the bsp connection to come up...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from '/Users/andriisumko/git/parquet-data-generator/.bloop'...
+[0m[32m[D][0m Loading project from '/Users/andriisumko/git/parquet-data-generator/.bloop/parquet-data-generator.json'
+[0m[32m[D][0m Loading project from '/Users/andriisumko/git/parquet-data-generator/.bloop/parquet-data-generator-test.json'
+[0m[32m[D][0m Configured SemanticDB in projects 'parquet-data-generator-test', 'parquet-data-generator'
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/n4/xn460vms2txdrycmzn6ztj4m0000gn/T/bsp-launcher4316787563520432939/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/n4/xn460vms2txdrycmzn6ztj4m0000gn/T/bsp-launcher4316787563520432939/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/andriisumko/Library/Caches/org.scalameta.metals/bsp.trace.json
+INFO  Connected to Build server v1.4.0-RC1-190-ef7d8dba
+INFO  time: indexed workspace in 1.22s
+INFO  skipping build import with status 'Installed'
+INFO  compiling parquet-data-generator (1 scala source)
+INFO  time: compiled parquet-data-generator in 3.3s
+INFO  compiling parquet-data-generator (1 scala source)
+INFO  time: compiled parquet-data-generator in 1.87s

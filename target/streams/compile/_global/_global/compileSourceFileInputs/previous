@@ -1,0 +1,1 @@
+["sbt.Task[scala.collection.immutable.Map[java.lang.String, scala.collection.Seq[scala.Tuple2[java.nio.file.Path, sbt.nio.FileStamp]]]]",{"2.12.11":{"hashes":[["/Users/andriisumko/git/parquet-data-generator/src/main/scala/Main.scala","aa49bbecad9d7ca1e9d122ccb697b0591c11a5aa"]],"lastModifiedTimes":[]}}]
